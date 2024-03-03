@@ -6,6 +6,7 @@ import time
 import os
 
 
+# iniciando extração broadcast
 try:
     output_excel = pd.read_excel('output.xlsx')
 except:
